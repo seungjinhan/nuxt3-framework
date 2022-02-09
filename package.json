@@ -1,0 +1,16 @@
+{
+  "name": "framework",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "vue3-storage": "^0.1.11"
+  }
+}
